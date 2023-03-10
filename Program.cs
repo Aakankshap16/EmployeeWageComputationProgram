@@ -9,7 +9,8 @@
             // EmployeeCheck.EmployeeAttendence();
             //int empWageValue = EmployeeCheckExtension.EmployeeAttendence(empSalPerhr);
             // int empWageValue = usingSwitchCase.EmployeeAttendence(empSalPerhr);
-            WageForMonth.EmployeeAttendence();
+            // WageForMonth.EmployeeAttendence();
+            TotalHrForMonth.EmployeeAttendence();
             
         }
     }
