@@ -5,7 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the employee wage computation problem!");
-            EmployeeCheck.EmployeeAttendence();
+           // EmployeeCheck.EmployeeAttendence();
+            int empSalPerhr = 20;
+            int empWageValue = EmployeeCheckExtension.EmployeeAttendence(empSalPerhr);
+            Console.WriteLine("wages of employee is :" + empWageValue);
         }
     }
 
